@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Lina Kaval</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html" id="home"><i class="fa fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/ourstory.html" id="ourstory">Our Story</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      let active = false;
+      document.querySelectorAll(".nav-link").forEach((link) => {
+      if (link.href === window.location.href) {
+          link.classList.add("active");
+          link.setAttribute("aria-current", "page");
+          active = true;
+      }
+      });
+      if (!active){
+        document.querySelector("#home").classList.add("active");
+        document.querySelector("#home").setAttribute("aria-current", "page");}
+    </script>
+  </nav>
+  

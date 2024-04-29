@@ -13,6 +13,10 @@ body {
     text-align: center;
 }
 
+.box {
+    padding: 10px;
+}
+
 h1 {
     margin-bottom: 20px;
 }
@@ -119,4 +123,10 @@ navbar-brand{
         right: 5px;
         left: auto;
     }
+}
+
+#countdown {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
 }

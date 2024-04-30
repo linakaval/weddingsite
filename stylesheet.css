@@ -17,16 +17,23 @@ body {
     background-color: #c9a0dc;
     color: #0E0140;
     text-align: center;
-    height: 500px;
-    padding-top: 100px;
+    padding: 100px 0px;
 }
 
 .section2 {
-    background-color: #D3D3D3;
-    color: #0E0140;
+    background-color: #0E0140;
+    color: #D3D3D3;
     text-align: center;
-    height: 500px;
-    padding-top: 50px;
+    padding: 100px 0px;
+}
+
+.infocard {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 2rem;
+    margin: 10px auto;
+    padding: 20px;
+    width: 80%;
 }
 
 @keyframes sparkle {
@@ -168,4 +175,8 @@ navbar-brand{
     margin: 2% 5%;
     display: inline-block;
     vertical-align: top;
+}
+
+ul {
+    list-style-type: none;
 }
